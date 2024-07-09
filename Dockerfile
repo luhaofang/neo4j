@@ -15,4 +15,3 @@
 # ENTRYPOINT ["tini", "-g", "--", "/startup/docker-entrypoint.sh"]
 # CMD ["neo4j"]
 FROM pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime as base
-RUN apt-get install gcc
